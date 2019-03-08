@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
   "expoServerPort": 19000,
-  "packagerPort": null,
-  "packagerPid": null,
+  "packagerPort": 19001,
+  "packagerPid": 2740,
   "expoServerNgrokUrl": "https://y2-bmh.wainglaminlwin.finlitmobile.exp.direct",
   "packagerNgrokUrl": "https://packager.y2-bmh.wainglaminlwin.finlitmobile.exp.direct",
-  "ngrokPid": 2313
+  "ngrokPid": 2755
 }
