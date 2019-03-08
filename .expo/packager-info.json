@@ -3,7 +3,7 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerNgrokUrl": "https://y2-bmh.neonnatureex.finlit-mobile.exp.direct",
+  "packagerNgrokUrl": "https://packager.y2-bmh.neonnatureex.finlit-mobile.exp.direct",
+  "ngrokPid": 20739
 }
