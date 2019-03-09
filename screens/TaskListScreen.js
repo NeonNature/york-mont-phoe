@@ -26,7 +26,6 @@ export default class TaskListScreen extends React.Component {
             taskList : data
         })
     }
-
     render() {
         return (
             <View>

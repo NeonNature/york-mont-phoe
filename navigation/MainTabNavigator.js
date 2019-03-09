@@ -7,10 +7,10 @@ import HomeScreen from '../screens/HomeScreen';
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
-import TaskDetailScreen from '../screens/TaskDetailScreen';
+import InterestScreen from '../screens/InterestScreen';
 
 const HomeStack = createStackNavigator({
-  Home: TaskDetailScreen,
+  Home: InterestScreen,
 });
 
 HomeStack.navigationOptions = {

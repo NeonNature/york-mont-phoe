@@ -12,7 +12,6 @@ export default class TaskDetailScreen extends React.Component {
         this.setState({
             todo : data
         })
-        console.log(this.state.todo)
     }
 
     finishTodo = async () => {
@@ -22,6 +21,8 @@ export default class TaskDetailScreen extends React.Component {
             body : JSON.stringify({ id : this.state.todo.todo })
         })
 
+        const data = await response.json()
+        console.log(response.ok)
         if(response.ok) {
             Alert.alert(
                 'Success!',
@@ -33,7 +34,7 @@ export default class TaskDetailScreen extends React.Component {
         } else {
             Alert.alert(
                 'Error!',
-                'Something went wrong :(',
+                data,
                 [
                     {text : 'OK', style : 'cancel'}
                 ]
